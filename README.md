@@ -1,4 +1,6 @@
 🛒 Market Basket Analysis
+
+
 📌 Project Overview
 Market Basket Analysis (MBA) is a data mining technique used to identify relationships between products purchased together. This project uses Apriori Algorithm to generate association rules from transactional data, helping in product recommendations, cross-selling, and customer behavior analysis.
 
