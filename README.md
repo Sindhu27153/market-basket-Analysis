@@ -1,14 +1,21 @@
-# market-basket-Analysis
-Market Basket Analysis (MBA) is a technique used in retail and e-commerce to identify relationships between products based on purchase patterns
+🛒 Market Basket Analysis
+📌 Project Overview
+Market Basket Analysis (MBA) is a data mining technique used to identify relationships between products purchased together. This project uses Apriori Algorithm to generate association rules from transactional data, helping in product recommendations, cross-selling, and customer behavior analysis.
 
-🛒 Simple Market Basket Analysis
-Market Basket Analysis (MBA) is a technique used in retail and e-commerce to identify relationships between products based on purchase patterns. It helps in recommendation systems, cross-selling, and customer behavior analysis.
+📂 Dataset Details
+Source: Synthetic data (10,000 transactions)
 
-📌 Steps for Simple Market Basket Analysis
-Prepare the dataset – Transactions containing multiple products.
+Columns:
 
-Convert data into a suitable format – Convert transactional data into a matrix (binary format).
+Transaction_ID – Unique identifier for each transaction
 
-Apply Association Rule Mining – Use Apriori or FP-Growth algorithm to find frequent itemsets and association rules.
+Item – Product purchased in the transaction
 
-Analyze the results – Identify strong rules using metrics like support, confidence, and lift.
+📊 Market Basket Analysis Workflow
+Data Preprocessing – Convert transaction data into a structured format.
+
+Frequent Itemset Mining – Apply Apriori Algorithm to find product combinations.
+
+Association Rule Generation – Identify strong rules using support, confidence, and lift.
+
+Visualization – Scatter plots & heatmaps to analyze key relationships.
